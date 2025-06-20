@@ -6,8 +6,8 @@ const int GUESS_LIMIT=6;
 std::list<std::string> wList;
 
 signed main(){
-    //std::string guessWord;
-    //std::cin >> guessWord;
+    std::string guessWord;
+    std::cin >> base;
     std::ifstream file("words.txt");
 	if (!file.is_open()) {
 		std::cerr << "fail to open\n";
